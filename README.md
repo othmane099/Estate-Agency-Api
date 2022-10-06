@@ -1,4 +1,6 @@
 # Estate Agency Api
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 I created this API for practicing what i learnt and improving my skills using spring ecosystem. This API is for a simple website of an estate agency.
 <br>
 <br>
