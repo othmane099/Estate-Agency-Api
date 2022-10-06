@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <style>
+        .text-block {
+            white-space: pre;
+        }
+    </style>
+</head>
+<body>
+<h1>Contact-us mail</h1>
+<div>
+    <h5>Full Name: </h5>
+    <p th:text="${fullName}"></p>
+    <h5>E-mail: </h5>
+    <p th:text="${email}"></p>
+    <h5>Subject: </h5>
+    <p th:text="${subject}"></p>
+    <h5>Message: </h5>
+    <p  class="text-block" th:text="${message}"></p>
+</div>
+
+</body>
+</html>
